@@ -1,0 +1,9 @@
+{
+  "name": "task-manager-monolith",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "ng build",
+    "test": "ng test"
+  },
+  "private": true
+}
