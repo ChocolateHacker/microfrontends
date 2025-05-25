@@ -17,7 +17,7 @@ export class TaskFormComponent {
   public newTask: ITask = { id: 0, title: '', completed: false };
 
   public onSubmit(): void {
-    this.newTask = { id: 0, title: '', completed: false };
     this.taskAdded.emit({ ...this.newTask, id: Date.now() });
+    this.newTask = { id: 0, title: '', completed: false };
   }
 }
